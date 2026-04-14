@@ -1,0 +1,17 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1776142044
+::res://docs/::1776141928
+map.md::TextFile::-1::1776141928::0::1::::<><><>0<>0<><>::
+MVP.md::TextFile::-1::1776141928::0::1::::<><><>0<>0<><>::
+WhatYouWant.md::TextFile::-1::1776141928::0::1::::<><><>0<>0<><>::
+::res://scenes/::1776141928
+Clear.tscn::PackedScene::9840329604294050::1776141928::0::1::::<><><>0<>0<><>::res://scripts/clear.gd
+Game.tscn::PackedScene::194416448467427554::1776141928::0::1::::<><><>0<>0<><>::res://scripts/game.gd
+GameOver.tscn::PackedScene::265128129615250722::1776141928::0::1::::<><><>0<>0<><>::res://scripts/gameover.gd
+Title.tscn::PackedScene::4251074046741263202::1776141928::0::1::::<><><>0<>0<><>::res://scripts/title.gd
+::res://scripts/::1776141928
+clear.gd::GDScript::4411507319395561634::1776141928::0::1::::<>Control<><>0<>0<><>::
+game.gd::GDScript::5139383932268250491::1776141928::0::1::::<>Node2D<><>0<>0<><>::
+gameover.gd::GDScript::4724263970304691160::1776141928::0::1::::<>Control<><>0<>0<><>::
+game_state.gd::GDScript::5326126989405777855::1776141928::0::1::::<>Node<><>0<>0<><>::
+title.gd::GDScript::107846748746414541::1776141928::0::1::::<>Control<><>0<>0<><>::

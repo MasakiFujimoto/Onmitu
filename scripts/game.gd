@@ -333,7 +333,7 @@ func _handle_player_input(delta: float) -> void:
 
 func _can_walk_pos(p: Vector2) -> bool:
 	var r: float = TILE * 0.32
-	var corners := [Vector2(-r, -r), Vector2(r, -r), Vector2(-r, r), Vector2(r, r)]
+	var corners: Array[Vector2] = [Vector2(-r, -r), Vector2(r, -r), Vector2(-r, r), Vector2(r, r)]
 	for c in corners:
 		var q := p + c
 		var t := Vector2i(int(floor(q.x / TILE)), int(floor(q.y / TILE)))
