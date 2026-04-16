@@ -5,6 +5,7 @@ const MAX_FLOOR: int = 5
 var current_floor: int = 1
 var death_floor: int = 1
 var has_seen_controls: bool = false
+var debug_mode: bool = false
 
 func _ready() -> void:
 	var font := SystemFont.new()

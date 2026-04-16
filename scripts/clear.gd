@@ -1,6 +1,10 @@
 extends Control
 
 func _ready() -> void:
+	if DisplayServer.get_name() == "headless":
+		print("[AUTO] all floors cleared! quit.")
+		get_tree().quit(0)
+		return
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
 	var bg := ColorRect.new()

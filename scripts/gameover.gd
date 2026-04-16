@@ -1,6 +1,12 @@
 extends Control
 
 func _ready() -> void:
+	# headlessモードなら即リトライ
+	if DisplayServer.get_name() == "headless":
+		print("[AUTO] game over → retrying...")
+		GameState.reset()
+		get_tree().change_scene_to_file("res://scenes/Game.tscn")
+		return
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
 	var bg := ColorRect.new()
