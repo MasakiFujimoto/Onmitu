@@ -47,9 +47,25 @@ func _ready() -> void:
 	b3.pressed.connect(_on_quit)
 	vbox.add_child(b3)
 
+	var feedback := Button.new()
+	feedback.text = "フィードバック"
+	feedback.anchor_left = 1.0
+	feedback.anchor_right = 1.0
+	feedback.anchor_top = 1.0
+	feedback.anchor_bottom = 1.0
+	feedback.offset_left = -200
+	feedback.offset_top = -60
+	feedback.offset_right = -20
+	feedback.offset_bottom = -20
+	feedback.pressed.connect(_on_feedback)
+	add_child(feedback)
+
 	if not GameState.has_seen_controls:
 		GameState.has_seen_controls = true
 		call_deferred("_show_controls")
+
+func _on_feedback() -> void:
+	OS.shell_open("https://docs.google.com/forms/d/e/1FAIpQLSe_PNWB_GCP_dqGcd2EDntVsw0dh6UbzFvvhaaDXwuBRyAtBg/viewform?usp=publish-editor")
 
 func _on_start() -> void:
 	GameState.reset()
