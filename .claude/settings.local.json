@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__godot__get_debug_output",
+      "Read(//private/tmp/**)",
+      "mcp__godot__run_project",
+      "Bash(timeout 120 /Applications/Godot.app/Contents/MacOS/Godot --headless --scene scenes/Game.tscn)",
+      "Bash(grep -E \"\\\\[FLOOR\\\\]|\\\\[CLEAR\\\\]|\\\\[DEATH\\\\]|\\\\[AUTO\\\\] \\(game over|all floors|headless\\)|steps:[0-9]+$\")"
+    ]
+  }
+}

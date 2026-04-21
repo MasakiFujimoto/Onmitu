@@ -15,8 +15,8 @@ const FLOOR_DATA := [
 	{"w":40,"h":30,"rmin":5,"rmax":6,"smin":4,"smax":8,"emin":1,"emax":1,"comp":"balanced_only"},
 	{"w":50,"h":40,"rmin":7,"rmax":9,"smin":4,"smax":10,"emin":2,"emax":2,"comp":"balanced_only"},
 	{"w":60,"h":45,"rmin":9,"rmax":11,"smin":5,"smax":12,"emin":2,"emax":3,"comp":"balanced_hearing"},
-	{"w":70,"h":55,"rmin":11,"rmax":13,"smin":5,"smax":14,"emin":3,"emax":4,"comp":"spec_heavy"},
-	{"w":80,"h":60,"rmin":13,"rmax":16,"smin":6,"smax":15,"emin":4,"emax":5,"comp":"spec_heavy"},
+	{"w":70,"h":55,"rmin":11,"rmax":13,"smin":5,"smax":14,"emin":5,"emax":6,"comp":"spec_heavy"},
+	{"w":80,"h":60,"rmin":13,"rmax":16,"smin":6,"smax":15,"emin":7,"emax":8,"comp":"spec_heavy"},
 ]
 
 # ---- Enemy data (inner class) ----
